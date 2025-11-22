@@ -40,17 +40,21 @@ The system gives you:
 
 <img width="1914" height="775" alt="image" src="https://github.com/user-attachments/assets/f426629a-ddb8-4e2e-9ddb-d9c326e00cd4" />
 
+<img width="1897" height="833" alt="image" src="https://github.com/user-attachments/assets/cd1e88f8-6642-4b79-b6a8-b84aa3c38ac4" />
 
+<img width="1918" height="811" alt="image" src="https://github.com/user-attachments/assets/1ae4c921-ce40-4120-b36b-d07810f2f2d9" />
 
-
-📌 Add images below (update after deployment demo):
 
 ### 🌐 Web Interface  
 <img width="1919" height="815" alt="image" src="https://github.com/user-attachments/assets/5bef1983-9b81-4212-96b0-6b407662f661" />
 
 
+
+
 ### 💻 Command Line Output  
 <img width="1034" height="381" alt="image" src="https://github.com/user-attachments/assets/d3362be0-4919-48f5-8011-d4e1e9ce41fb" />
+
+
 
 
 ---
