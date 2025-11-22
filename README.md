@@ -40,6 +40,20 @@ The system gives you:
 
 <img width="1914" height="775" alt="image" src="https://github.com/user-attachments/assets/f426629a-ddb8-4e2e-9ddb-d9c326e00cd4" />
 
+
+## 🔍 Smart Search & Suggestions
+
+The app includes an interactive search feature that helps users quickly find cities, even if they only remember part of the name.
+
+- You can start typing a few letters, for example: `nag`
+- The interface will suggest matching locations such as **Nagpur**
+- You simply click on the suggested city name
+- Then click the **Search** button to get:
+  - Current weather for that place
+  - Up to 5 nearby tourist attractions
+
+This makes it easier to explore cities without needing to type the full place name perfectly.
+
 <img width="1897" height="833" alt="image" src="https://github.com/user-attachments/assets/cd1e88f8-6642-4b79-b6a8-b84aa3c38ac4" />
 
 <img width="1918" height="811" alt="image" src="https://github.com/user-attachments/assets/1ae4c921-ce40-4120-b36b-d07810f2f2d9" />
