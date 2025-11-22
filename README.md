@@ -1,67 +1,105 @@
-🌍 Tourism AI System
+# 🌍 Tourism AI System
+Traveling somewhere? ✈️ Just ask — and instantly get:
 
-Turn any travel thought into instant weather + places to visit!
-This project is a multi-agent AI system that helps you explore cities around the world.
+✔ What’s the weather like there?
+✔ What are the best places to visit nearby?
 
-✨ What this project does
+This project is a multi-agent AI system that helps users explore cities around the world using simple natural language queries
 
-🧠 Parent Agent – manages communication between all agents
+## ✨ Why This Project?
 
-🌤 Weather Agent – fetches real-time weather for a location
+Because travel planning should be easy ❤️
+You type:
 
-🗺 Places Agent – finds interesting tourist spots nearby
+"I'm traveling to Tokyo next week — recommend places!"
 
-🚫 Error Handling – gives readable messages when a city isn’t found
+The system gives you:
+☀ Live weather + 🗺 Top tourist attractions
+… in seconds! 💨
 
-🎨 Modern UI – clean Streamlit interface for easy use
+## ✨ Features
 
-You can use it in two ways:
+- 🧠 **Parent Agent** – coordinates communication between other agents  
+- 🌤 **Weather Agent** – fetches real-time weather for a location  
+- 🗺 **Places Agent** – finds interesting tourist spots near the location  
+- 🚫 **Smart Error Handling** – gives clean messages if a city isn’t found  
+- 🎨 **Modern UI** – beautiful Streamlit-based web interface  
+- 🖥 Available in **Web App** + **Command Line Interface (CLI)**  
 
-🖥 Web app (Streamlit)
+---
 
-💻 Command-line interface (CLI)
+## 🚀 Live Application
 
-🚀 Quick Start Guide
-🔹 Prerequisites
+🔗 **Try the deployed app here:**  
+👉 https://tourism-ai-system-thtjujejttbmappptmsalu4.streamlit.app/
 
-Make sure you have:
+---
 
-Python 3.7+
+## 🖼 Screenshots
+<img width="1919" height="811" alt="image" src="https://github.com/user-attachments/assets/748f128c-5763-487b-a9aa-06883063be1c" />
 
-pip
+<img width="1914" height="775" alt="image" src="https://github.com/user-attachments/assets/f426629a-ddb8-4e2e-9ddb-d9c326e00cd4" />
 
-Internet connection 🌐
 
-1️⃣ Clone the Repository
+
+
+📌 Add images below (update after deployment demo):
+
+### 🌐 Web Interface  
+<img width="1919" height="815" alt="image" src="https://github.com/user-attachments/assets/5bef1983-9b81-4212-96b0-6b407662f661" />
+
+
+### 💻 Command Line Output  
+<img width="1034" height="381" alt="image" src="https://github.com/user-attachments/assets/d3362be0-4919-48f5-8011-d4e1e9ce41fb" />
+
+
+---
+
+## 🏁 Getting Started
+
+### 🔹 Prerequisites
+
+Make sure you have installed:
+- Python 3.7 or above
+- pip (package installer)
+- Internet connection 🌐
+
+---
+
+### 📥 1️⃣ Clone the Repository
+
+```bash
 git clone <repository-url>
 cd Inkel3/Inkel
+```
 
-2️⃣ Create a Virtual Environment (Recommended)
-
-Windows
-
+## 🛠 2️⃣ Create Virtual Environment (Recommended)
+Windows:
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 
-
-macOS/Linux
-
+macOS/Linux:
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 🖥 Option 1 — Streamlit Web App (Recommended)
-
-Run the app:
-
+```bash
 streamlit run streamlit_app.py
+```
 
+Then open in browser:
+➡ http://localhost:8501
 
-Then open: http://localhost:8501
-
-Try Asking:
+📝 Try queries like:
 
 “I'm going to Bangalore, let's plan my trip”
 
@@ -71,18 +109,12 @@ Try Asking:
 
 “Show me attractions in Tokyo”
 
-You’ll see:
-
-✔ Detected location
-✔ Current weather
-✔ Top nearby attractions
+✔ Weather + Attractions — displayed together!
 
 💻 Option 2 — Command Line App
-
-Run:
-
+```bash
 python main.py
-
+```
 
 Example queries:
 
@@ -92,37 +124,39 @@ New York
 
 Temperature in Goa
 
-exit → to quit
+Type exit to quit
 
-🧩 How it works (Behind the scenes)
+### 🧩 How It Works
 
-You ask a question (e.g., "places to visit in Manali")
+1️⃣ Extract location from user input
 
-System extracts the location
+2️⃣ Get latitude/longitude using Nominatim
 
-Nominatim converts place to coordinates
+3️⃣ Fetch live weather from Open-Meteo
 
-Weather Agent fetches weather from Open-Meteo
+4️⃣ Find attractions from Overpass API
 
-Places Agent fetches attractions via Overpass
+5️⃣ Response combined & displayed neatly
 
-Parent Agent returns a clean combined response
+### 🔌 APIs Used
+API Name	                                     Purpose
 
-🔌 APIs Used
-API	Purpose
-Nominatim	Geocoding (City → Lat/Long)
-Open-Meteo	Weather Information
-Overpass API	Tourist Attractions from OpenStreetMap
-📝 Example Output
-▶ Command Line
+Nominatim	                                     Geocoding (City → Coordinates)
+
+Open-Meteo	                                     Live weather details
+
+Overpass API	                                 Tourist attractions from OpenStreetMap
+
+📝 Example Output (CLI)
+
 🌎 Welcome to the Tourism AI System! 🌎
-Enter a place name (e.g., 'New York', 'Tokyo', 'Paris')
-Type 'exit' to quit.
 
 Enter a place name: Tokyo
+
 Fetching information, please wait...
 
 ==================================================
+
 Location: Tokyo, Japan
 Weather: Clear sky, 22°C
 
@@ -134,7 +168,12 @@ Top Attractions:
 5. Tokyo Skytree (viewpoint)
 ==================================================
 
-📄 License
+## 📄 License
 
-This project is open-source and released under the MIT License.
-Feel free to use it, improve it, and build amazing things — just keep the license included 🚀
+This project is Open-Source under the MIT License.
+Feel free to improve and build amazing things — just keep the license included 🚀
+
+
+
+
+
